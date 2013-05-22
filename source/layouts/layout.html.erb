@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta content="text/html; charset=UTF-8" http-equiv="Content-Type" />
+  <meta charset="utf-8" />
+  <title>Site Title</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <meta content="" name="description" />
+  <meta content="Andrew Martin" name="author" />
+
+  <link href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-144-precomposed.png" rel="apple-touch-icon-precomposed" sizes="144x144" />
+
+  <link href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-114-precomposed.png" rel="apple-touch-icon-precomposed" sizes="114x114" />
+
+  <link href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-72-precomposed.png" rel="apple-touch-icon-precomposed" sizes="72x72" />
+
+  <link href="http://twitter.github.com/bootstrap/assets/ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed" />
+
+  <link href="http://twitter.github.com/bootstrap/assets/ico/favicon.png" rel="shortcut icon" />
+<!--[if lt IE 9]>
+<script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.6.2/html5shiv.js" type="text/javascript">
+</script><![endif]-->
+
+<link href="assets/stylesheets/application.css" media="all" rel="stylesheet" type="text/css" />
+</head>
+
+<body class="sub">
+
+  <%= partial "header" %>
+
+  <div class="container">
+
+    <div class="row-fluid">
+
+      <div class="span12">
+        <%= yield %>
+      </div>
+
+    </div>
+  </div>
+
+  <%= partial "footer" %>
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js" type="text/javascript">
+</script>
+<script src="assets/javascripts/bootstrap/bootstrap.min.js" type="text/javascript">
+</script>
+<script src="assets/javascripts/totefish-core.js" type="text/javascript">
+</script>
+<script src="assets/javascripts/totefish-shortcuts.js" type="text/javascript">
+</script>
+<script src="assets/javascripts/quicksearch.js" type="text/javascript">
+</script>
+<script src="assets/javascripts/application.js" type="text/javascript">
+</script>
+</body>
+</html>
